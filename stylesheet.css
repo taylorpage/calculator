@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  background-color: rgb(0,220,220);
+}
+p {
+  color: white;
+  font-size: 24px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 5px;
+}
+button {
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  color: rgb(50,50,50);
+  margin: 2px;
+  width: 56px;
+  height: 50px;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+}
+.display-case {
+  text-align: center;
+  margin: 15px;
+}
+.display {
+  text-align: center;
+  font-size: 17px;
+  font-family: Montserrat, sans-serif;
+  height: 26px;
+  width: 250px;
+  border-style: none;
+  border-radius: 4px;
+}
+#casing {
+  margin: auto;
+  padding: 4px;
+  background-color: gray;
+  text-align: center;
+  width: 280px;
+  height: 340px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+#outterCasing {
+  padding: 60px;
+}
+
+#fireRed {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(200, 100, 50);
+  color: rgb(255, 150, 0)
+}
+#fireRed:hover {
+  background-color: rgba(200, 100, 50, .8);
+}
+
+#coolBlue {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(50, 100, 200);
+  color: rgb(0, 170, 255);
+}
+
+#coolBlue:hover {
+  background-color: rgba(50, 100, 200, .8);
+}
+
+
